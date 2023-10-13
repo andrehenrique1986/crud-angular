@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Course } from '../model/course';
 
+
 @Component({
   selector: 'app-courses',
   templateUrl: './courses.component.html',
@@ -9,7 +10,7 @@ import { Course } from '../model/course';
 export class CoursesComponent implements OnInit {
 
     courses: Course[] = [
-{_id:'1', name: 'Angular', category: 'Front-End'}
+ {_id:'1', name: 'Angular', category: 'Front-End'}
     ];
     displayedColumns=['name','category'];
 
