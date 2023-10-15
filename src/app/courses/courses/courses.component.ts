@@ -37,9 +37,9 @@ export class CoursesComponent implements OnInit {
           data: errorMsg
         });
       }
-    
 
-    
+
+
 
     ngOnInit(): void {
 
