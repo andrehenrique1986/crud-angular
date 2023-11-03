@@ -1,3 +1,9 @@
+mat-card {
+  max-width: 80%;
+  margin:2em auto;
+  text-align: center;
+ }
+
 table {
   width: 100%;
 }
@@ -9,3 +15,24 @@ table {
   align-items: center;
   justify-content: center;
 }
+
+.mdc-card__actions{
+  display: block;
+}
+
+mat-toolbar{
+  margin-bottom: 15px;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .min-width {
+    width: 100%;
+    min-width: 150px;
+  }
+
+  .mdc-card__actions{
+    display: block;
+  }
